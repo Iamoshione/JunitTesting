@@ -1,0 +1,16 @@
+
+public class ValidateString {
+	
+	public boolean ValidateName(String name) {
+		if(name.length() <= 15) {
+			return true;
+		}
+		else return false;
+	}
+	
+
+}
+
+//HERE I HAVE A VALIDATESTRING CLASS 
+//THIS CLASS HAS A METHOD CALLED VALIDATE STRING THAT TAKES A PARAMETER OF STRING NAME 
+//THIS METHOD USED AN INBUILT METHOD FOR STRINGS CALLED .LENGHT WHICH RETURNS THE LENGHT OF THE STRING AND MAKES SURE THE LENGHT IS LESS THAN 15 
